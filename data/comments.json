@@ -1,0 +1,6 @@
+{
+  "comments": [
+    { "id": 1, "postId": 1, "comment": "Comment 1 on post 1" },
+    { "id": 2, "postId": 1, "comment": "Comment 2 on post 1" }
+  ]
+}
