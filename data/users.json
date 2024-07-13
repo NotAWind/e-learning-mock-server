@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "userId": "00001",
+      "email": "student@example.com",
+      "userName": "Joey",
+      "role": "student",
+      "schools": [
+        {
+          "schoolId": "SchoolA",
+          "schoolName": "School A"
+        },
+        {
+          "schoolId": "SchoolB",
+          "schoolName": "School B"
+        }
+      ],
+      "password": "student123",
+      "avatar": "https://github.com/shadcn.png"
+    },
+
+    {
+      "userId": "00002",
+      "email": "admin@example.com",
+      "userName": "John",
+      "role": "admin",
+      "schools": [],
+      "password": "admin123",
+      "avatar": "https://github.com/shadcn.png"
+    },
+    {
+      "userId": "00003",
+      "email": "teacher@example.com",
+      "userName": "Nick",
+      "role": "teacher",
+      "schools": [
+        {
+          "schoolId": "SchoolB",
+          "schoolName": "School B"
+        }
+      ],
+      "password": "teacher123",
+      "avatar": "https://github.com/shadcn.png"
+    }
+  ]
+}

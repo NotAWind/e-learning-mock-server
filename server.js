@@ -5,8 +5,8 @@ const path = require("path");
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
 const dataDir = path.join(__dirname, "data");
+const routes = JSON.parse(fs.readFileSync("routes.json"));
 
-// Function to merge JSON files
 const getMergedData = () => {
   const files = fs.readdirSync(dataDir);
   let data = {};
@@ -20,17 +20,10 @@ const getMergedData = () => {
   return data;
 };
 
-// Generate the router from the merged data
 const router = jsonServer.router(getMergedData());
 
 server.use(middlewares);
-
-// Update the router state
-server.use((req, res, next) => {
-  router.db.setState(getMergedData());
-  next();
-});
-
+server.use(jsonServer.rewriter(routes));
 server.use(router);
 
 const PORT = process.env.PORT || 3001;
