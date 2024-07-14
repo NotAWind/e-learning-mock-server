@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "userId": "00001",
+      "id": 1,
       "email": "student@example.com",
       "userName": "Joey",
       "role": "student",
@@ -20,7 +20,7 @@
     },
 
     {
-      "userId": "00002",
+      "id": 2,
       "email": "admin@example.com",
       "userName": "John",
       "role": "admin",
@@ -29,7 +29,7 @@
       "avatar": "https://github.com/shadcn.png"
     },
     {
-      "userId": "00003",
+      "id": 3,
       "email": "teacher@example.com",
       "userName": "Nick",
       "role": "teacher",
