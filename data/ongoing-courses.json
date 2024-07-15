@@ -1,0 +1,48 @@
+{
+  "ongoing-courses": [
+    {
+      "id": 5,
+      "image": "/digital-marketing.jpg",
+      "type": "Record",
+      "university": "University of California",
+      "title": "Digital Marketing",
+      "description": "Learn the strategies and tools needed to succeed in digital marketing. Covering SEO, social media, email marketing, and more.",
+      "rating": 4.8,
+      "reviews": "900 reviews",
+      "tags": ["Marketing", "Business"]
+    },
+    {
+      "id": 6,
+      "image": "/data-science-cover.jpg",
+      "type": "Live",
+      "university": "Oxford University",
+      "title": "Data Science",
+      "description": "Dive deep into data science concepts, tools, and techniques. Learn to analyze and visualize data to make informed decisions.",
+      "rating": 4.9,
+      "reviews": "2.1k reviews",
+      "tags": ["Data", "Statistics"]
+    },
+    {
+      "id": 7,
+      "image": "/graphic-design.jpg",
+      "type": "Record",
+      "university": "Parsons School of Design",
+      "title": "Graphic Design",
+      "description": "Explore the principles of graphic design and learn how to create visually appealing and effective designs using various tools and software.",
+      "rating": 4.5,
+      "reviews": "800 reviews",
+      "tags": ["Design", "Art"]
+    },
+    {
+      "id": 8,
+      "image": "/finance-cover.jpg",
+      "type": "Live",
+      "university": "Wharton School",
+      "title": "Finance",
+      "description": "Gain a comprehensive understanding of financial principles, investment strategies, and risk management techniques.",
+      "rating": 4.7,
+      "reviews": "1.8k reviews",
+      "tags": ["Finance", "Economics"]
+    }
+  ]
+}

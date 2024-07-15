@@ -1,0 +1,26 @@
+{
+  "finished-courses": [
+    {
+      "id": 1,
+      "image": "/web-development-cover.jpg",
+      "type": "Record",
+      "university": "Stanford University",
+      "title": "Web Development",
+      "description": "Master the fundamentals of web development, from HTML and CSS to advanced JavaScript frameworks. Suitable for beginners and professionals alike.",
+      "rating": 4.7,
+      "reviews": "1.5k reviews",
+      "tags": ["Programming", "Web"]
+    },
+    {
+      "id": 2,
+      "image": "/cyber-security-cover.jpg",
+      "type": "Live",
+      "university": "MIT",
+      "title": "Cyber Security",
+      "description": "Understand the critical aspects of cyber security, learn how to protect systems, networks, and data from cyber attacks.",
+      "rating": 4.6,
+      "reviews": "1.2k reviews",
+      "tags": ["Security", "Networking"]
+    }
+  ]
+}
