@@ -1,0 +1,47 @@
+{
+  "course-detail": {
+    "id": 1,
+    "image": "/data-analysis-cover.jpg",
+    "type": "Record",
+    "university": "Limerick University",
+    "title": "Data Analysis",
+    "description": "This is your path to a career in data analysis. In this program, you’ll learn in-demand skills that will have you job-ready in less than 6 months. No degree or experience required.",
+    "rating": 4.8,
+    "reviews": "1k reviews",
+    "tags": ["Computer", "Math"],
+    "courseStatus": "notRegister",
+    "teachers": ["Mick Green", "Joey"],
+    "weeks": [
+      {
+        "week": 1,
+        "title": "Introduction to Data Analysis",
+        "description": "Covering fundamental concepts essential for understanding advanced topics in the field.",
+        "keywords": ["Basics", "Fundamentals", "Introduction"],
+        "image": "/flower.jpg"
+      },
+      {
+        "week": 2,
+        "title": "Intermediate Data Analysis",
+        "description": "Diving deeper into data analysis techniques and tools.",
+        "keywords": ["Intermediate", "Techniques", "Tools"],
+        "image": "/week2.jpg"
+      }
+    ],
+    "comments": [
+      {
+        "userName": "Alice",
+        "avatar": "https://github.com/shadcn.png",
+        "rating": 4,
+        "time": "3 months ago",
+        "comment": "This course surpassed expectations! Engaging lectures, interactive discussions, and practical assignments provided invaluable insights."
+      },
+      {
+        "userName": "Bob",
+        "avatar": "https://github.com/shadcn.png",
+        "rating": 5,
+        "time": "1 month ago",
+        "comment": "Excellent course with great content and instructors."
+      }
+    ]
+  }
+}
