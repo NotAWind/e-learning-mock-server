@@ -2,7 +2,6 @@ const jsonServer = require("json-server");
 const fs = require("fs");
 const path = require("path");
 const constant = require("./utils/const");
-const handleProfileUpdate = require("./routes/updateProfile");
 
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
@@ -25,20 +24,6 @@ const getMergedData = () => {
 const router = jsonServer.router(getMergedData());
 
 server.use(middlewares);
-
-// Ensure the body parser middleware is used before custom routes
-server.use(jsonServer.bodyParser);
-
-// Custom middleware for POST requests
-server.use((req, res, next) => {
-  if (req.method === "POST") {
-    req.body.createdAt = Date.now();
-  }
-  next();
-});
-
-// Handle profile update route
-handleProfileUpdate(server, dataDir);
 
 // Use the rewriter to handle custom routes from routes.json
 server.use(jsonServer.rewriter(routes));

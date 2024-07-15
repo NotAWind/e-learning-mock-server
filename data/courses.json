@@ -1,0 +1,26 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "image": "/data-analysis-cover.jpg",
+      "type": "Record",
+      "university": "Limerick University",
+      "title": "Data Analytics",
+      "description": "This is your path to a career in data analytics. In this program, you’ll learn in-demand skills that will have you job-ready in less than 6 months. No degree or experience required.",
+      "rating": 4.8,
+      "reviews": "1k reviews",
+      "tags": ["Computer", "Math"]
+    },
+    {
+      "id": 2,
+      "image": "/machine-learning-cover.jpg",
+      "type": "Live",
+      "university": "Harvard University",
+      "title": "Machine Learning",
+      "description": "Learn the fundamentals of machine learning and build your own models. This course covers both the theory and practical aspects of machine learning.",
+      "rating": 4.9,
+      "reviews": "2k reviews",
+      "tags": ["AI", "Math"]
+    }
+  ]
+}
