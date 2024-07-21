@@ -1,0 +1,8 @@
+{
+  "schools": [
+    { "id": "1111", "name": "school A" },
+    { "id": "2222", "name": "school B" },
+    { "id": "1234", "name": "school C" },
+    { "id": "4567", "name": "school D" }
+  ]
+}
