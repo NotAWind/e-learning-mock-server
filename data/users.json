@@ -7,12 +7,12 @@
       "role": "student",
       "schools": [
         {
-          "schoolId": "1111",
-          "schoolName": "school A"
+          "id": "1111",
+          "name": "school A"
         },
         {
-          "schoolId": "2222",
-          "schoolName": "school B"
+          "id": "2222",
+          "name": "school B"
         }
       ],
       "password": "student123",
@@ -35,8 +35,8 @@
       "role": "teacher",
       "schools": [
         {
-          "schoolId": "1111",
-          "schoolName": "school A"
+          "id": "1111",
+          "name": "school A"
         }
       ],
       "password": "teacher123",
