@@ -1,0 +1,48 @@
+{
+  "course-list": [
+    {
+      "id": 1,
+      "courseTitle": "testTitle",
+      "introduction": "test introduction",
+      "cover": {},
+      "teacher": "Jack,John",
+      "startTime": "2024-07-22T16:00:00.000Z",
+      "type": "Record",
+      "tags": [
+        {
+          "label": "Math",
+          "value": "Math"
+        },
+        {
+          "label": "Computer",
+          "value": "Computer"
+        }
+      ],
+      "weeklyCourses": [
+        {
+          "theme": "theme1",
+          "liveStreamLink": "https://test.com/live-stream/1",
+          "recordVideo": {},
+          "summary": "this is a test summary. basically about math.",
+          "keyWords": "beginners,introductions"
+        },
+        {
+          "theme": "Week2 Theme",
+          "liveStreamLink": "https://test.com/live-stream/2",
+          "summary": "Summary 2 Test",
+          "keyWords": "hhh,hungry"
+        }
+      ],
+      "schools": [
+        {
+          "label": "school A",
+          "value": "school A"
+        },
+        {
+          "label": "school C",
+          "value": "school C"
+        }
+      ]
+    }
+  ]
+}
