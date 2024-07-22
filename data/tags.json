@@ -1,0 +1,10 @@
+{
+  "tags": [
+    { "label": "Math", "value": "Math" },
+    { "label": "Language", "value": "Language" },
+    { "label": "Computer", "value": "Computer" },
+    { "label": "Bussiness", "value": "Bussiness" },
+    { "label": "Chemistry", "value": "Chemistry" },
+    { "label": "Physics", "value": "Physics" }
+  ]
+}
