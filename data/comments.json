@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "user": {
+        "name": "Alice",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+      },
+      "content": "Great course!",
+      "postTime": "2024-07-21T10:00:00.000Z",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "user": {
+        "name": "Bob",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      "content": "Very informative.",
+      "postTime": "2024-07-22T12:00:00.000Z",
+      "rating": 4
+    }
+  ]
+}
